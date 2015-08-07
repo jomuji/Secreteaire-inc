@@ -5,13 +5,13 @@
            <div class="col-sm-4">
                 <a href="/candidate-panel/enregistrement/"class="candidats">
                     <i class="flaticon-male226"></i>
-                    <h2>Candidats</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <h2>Candidat(e)</h2>
+                    <p>Déposez votre CV. </p>
                </a>
                 <a href="/employer-panel/enregistrement/" class="employeurs">
                     <i class="flaticon-business121"></i>
-                    <h2>Employeur</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <h2>Recruiteur</h2>
+                    <p>Voir les tarifs. </p>
                </a>
            </div> 
             

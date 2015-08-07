@@ -8382,7 +8382,7 @@ header.header .img-header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  min-height: 500px;
+  min-height: 400px;
   padding-bottom: 0;
 }
 /* line 12, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
@@ -8394,7 +8394,7 @@ header.header .img-header .enregistrement div.col-sm-4 {
   position: absolute;
   right: 10px;
   top: 50%;
-  margin-top: -200px;
+  margin-top: -195px;
 }
 /* line 19, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 header.header .img-header .enregistrement div.col-sm-4 .candidats {
@@ -9052,7 +9052,7 @@ form#wpjb-resume fieldset .wpjb-submit {
   padding-top: 70px;
   padding-bottom: 20px;
   background: #93d1d9;
-  margin-top: 400px;
+  margin-top: 300px;
   position: relative;
   min-height: 155px;
 }
@@ -10033,5 +10033,9 @@ footer.footer ul,
 footer.footer ol {
   list-style: outside none none;
   padding: 0;
+}
+/* line 27, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/styles.less */
+.content {
+  padding-bottom: 60px;
 }
 /*# sourceMappingURL=style.css.map */
