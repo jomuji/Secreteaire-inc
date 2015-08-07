@@ -8,7 +8,7 @@
                     <h2>Candidat(e)</h2>
                     <p>Déposez votre CV. </p>
                </a>
-                <a href="/employer-panel/enregistrement/" class="employeurs">
+                <a href="/forfaits-et-tarifs/" class="employeurs">
                     <i class="flaticon-business121"></i>
                     <h2>Recruiteur</h2>
                     <p>Voir les tarifs. </p>
