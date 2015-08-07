@@ -1,0 +1,440 @@
+.home{
+    div.job_listings {
+    font-family: Open Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top: ;
+        ul.job_listings{
+            margin-top:40px;
+        }
+        form.job_filters{
+            background:@brand-primary;
+            .job_types,
+            .showing_jobs
+            {
+                background:@brand-primary-dark;
+                color:#fff;
+                font-size:1em;
+                font-weight: normal;
+                label{
+                    margin-bottom:0;
+                }
+            }
+        }
+        .search_jobs{
+            input{
+                padding:10px 10px;
+                border:none;
+                font-style: italic;
+                font-family: georgia;
+                font-size:14px;
+            }
+            .search_region{
+                width:50%;
+                float: left;
+                .chosen-container-single .chosen-single{
+                    border-radius: 0px;
+                    background:#fff;
+                    border: none;
+                    padding:10px 10px;
+                    height:inherit;
+                    line-height:inherit;
+                    box-shadow: none;
+                    font-style: italic;
+                    font-family: georgia;
+                    color:#666;
+                    div{
+                    top:10px;
+                    }
+                }
+                .chosen-container-single .chosen-drop {
+                    background-clip: padding-box;
+                    border-radius: 0 0 0 0;
+                    margin-top: -1px;
+                    border: none;
+                }
+            }
+        }
+    }
+    .widget_wpjb-featured-jobs,
+    .widget_wpjb-recent-jobs
+    {
+        margin-bottom:40px;
+        h4{
+            font-size:36px;
+            line-height: 50px;
+            font-weight:300;
+            color:@brand-primary-dark;
+            text-align: center;
+        }
+        .wpjb-widget{
+            h5{
+                font-size: 20px;
+                margin-bottom: 0;
+                font-weight: 300;
+            }
+            a{
+                color:@brand-primary-dark;
+            }
+            i{
+            color:@brand-primary-light;
+            min-width: 20px;
+            text-align: left;
+            }
+            i.glyphicon-star{
+                font-size: 24px;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                margin-top:20px;
+            }
+            .img-responsive{
+                max-height: 80px;
+            }
+        }
+        .btn-primary{
+            margin-top: 40px;
+            font-size:18px;
+        }
+        .wpjb-grid-row{
+            background:#fff;
+            //border:2px solid @gray-lighter;
+            min-height: 100px;
+            margin: 10px 0;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+            width: 100%;
+            display: block;
+            float: left;
+        }
+        .wpjb-grid.wpjb-grid-closed-top{
+        border: none;
+            .btn-primary{
+                background: @brand-primary-dark;
+                border-color: @brand-primary-dark;
+                color: #fff;
+            }
+        }
+        
+    }
+}
+.enregistrement{
+    .header-search{
+        padding-top:70px;
+        padding-bottom:20px;
+        background: @brand-primary-light;
+        margin-top: 400px;
+        position: relative;
+        min-height: 155px;
+        h4{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: auto;
+            background: @brand-primary-dark;
+            color:#fff;
+            width: 100%;
+            padding:15px;
+            margin:0;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        #recherche-avancee{
+            .wpjb-form{
+                &:extend(.row);
+                label{
+                    width:100%;
+                    color:#fff;
+                }
+                fieldset{
+                    .make-sm-column(2);
+                }
+                fieldset.wpjb-fieldset-search
+                {
+                    .make-sm-column(10);
+                    float: left;
+                }
+                input,
+                select
+                {
+                    &:extend(.form-control);
+                    width: 100%;
+                    border: none;
+                }
+                div.wpjb-element-input-text,
+                div.wpjb-element-input-select
+                {
+                clear: none;
+                //.make-xs-column(12);
+                //.make-sm-column(2);
+                    width: 20%;
+                    float: left;
+                    padding:0 15px 0 0;
+                    .wpjb-field,
+                    input
+                    {
+                    width: 100%;
+                    }
+                }
+
+            input.wpjb-submit{
+            &:extend(.btn); 
+            &:extend(.btn-primary); 
+            &:extend(.btn-block); 
+            background: @brand-primary-dark;
+            border-color: @brand-primary-dark;
+            text-transform: uppercase;
+                margin-top: 30px;
+            }
+                legend.wpjb-empty{
+                display: none;
+                }
+            }
+        }
+
+    }
+}
+.page{
+    .enregistrement{
+        .header-search{
+        margin-top:300px;
+        }
+    }
+}
+.job_manager{
+    h4{
+        font-size:36px;
+        font-weight: 300;
+        text-align: center;
+        font-family: Open Sans;
+        color:@brand-primary-dark;
+        margin:20px 0 20px 0;
+        &:extend(.clearfix);
+    }
+    ul.job_listings{
+        border: 1px solid #eee;
+        margin-bottom: 40px;
+        &:extend(.clearfix);
+        li.job_listing{
+            &:extend(.clearfix);
+            a{
+                padding:0;
+                min-height:100px;
+                line-height: 100px;
+
+                .frame{
+                    height: 100px;
+                    overflow: hidden;
+                    img.company_logo{
+                        &:extend(.img-responsive);
+                        height: auto;
+                        width: 100%;
+                        max-width: 100%;
+                        //max-height: 100px;
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        }
+                }
+                .position{
+                    margin-top:30px;
+                    color: @brand-primary-dark;
+                    h3{
+                        font-size:20px;
+                        font-weight: 300;
+                    }
+                }
+                ul.meta{
+                    li{
+                    font-weight: 300;
+                    }
+                }
+            }
+            }
+        li.job_position_featured{
+            background:#fff;
+            a{
+            background:#fff;
+                &:hover{
+                background:#fcfcfc;
+                }
+            &:after{
+            &:extend(.glyphicon);
+                content: '\e006';
+                color:@brand-primary;
+                font-size: 24px;
+                position: absolute;
+                right: 20px;
+                top:50%;
+                margin-top: -12px;
+            }
+            }
+        }
+        }
+}
+.wpjb-page-index{
+    
+    .wpjb-job-list{
+        //border:2px solid @gray-lighter;
+        .wpjb-grid-row{
+            background:#fff;
+            //border:2px solid @gray-lighter;
+            min-height: 100px;
+            margin: 10px 0;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+            width: 100%;
+            display: block;
+            float: left;
+            h5{
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size: 22px;
+                font-weight: 300;
+                padding-left: 5px;
+                a{
+                color:@brand-primary-dark;
+                }
+            }
+            .label{
+                font-weight: 300;
+                text-transform: uppercase;
+                padding:0 11px;
+                line-height: 16px; 
+            }
+            ul{
+                padding:2px 0;
+                li{
+                    float: left;
+                    padding: 0 5px;
+                    font-weight: 300;
+                }
+            }
+            img.img-responsive{
+                max-height: 80px;
+            }
+            .btn{
+                margin-top:25px;
+                text-transform: uppercase;
+                background: @brand-primary-dark;
+                border-color:@brand-primary-dark;
+            }
+        }
+    }
+}
+
+.content-bottom{
+        .widget.widget_wpjb-widget-alerts{
+             &:extend(.container);
+            background: url('/wp-content/themes/sec-inc-2/images/woman-1.jpg') no-repeat right bottom;
+            padding:40px 0;
+            margin-bottom: 0;
+            min-height: 340px;
+            h4{
+                .make-sm-column(4);
+                font-size: 30px;
+                font-weight: 300;
+                margin-top:40px;
+            }
+            .wpjb-widget-alert{
+                clear: both;
+                .make-sm-column(8);
+                padding:0;
+                margin:40px 0 0 0;
+                ul{
+                    li{
+                     .make-sm-column(4); 
+                        input.wpjb-button{
+                            &:extend(.btn, .btn-primary);
+                            background: @brand-primary-dark;
+                            border-color: @brand-primary-dark;
+                            text-transform: uppercase;
+                            letter-spacing: 1px;
+                        }
+                        input.wpjb-widget-alert-keyword,
+                        input.wpjb-widget-alert-email
+                        {
+                            &:extend(.form-control);
+                            border: 1px solid @gray-lighter;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_wpjb-featured-companies{
+            background: @gray-lighter;
+            &:extend(.clearfix);
+            padding:50px 0 60px 0;
+            h4{
+                &:extend(.container);
+                text-align: center;
+                font-size: 30px;
+                font-weight: 300;
+                margin-bottom: 50px;
+            }
+            .wpjb-featured-companies{
+                &:extend(.container);
+                .logo{
+                    background: #fff;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+}
+.job{
+    .wpjb{
+    .wpjb-top-header{
+    border-bottom:3px solid @brand-primary-light;
+    border-top:3px solid @brand-primary-light;
+    border-left: none;
+    border-right: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+        .wpjb-top-header-image > img{
+            width: auto;
+            border: none;
+        }
+        .wpjb-top-header-title{
+        color:@gray;
+        margin-top: 30px;
+        }
+        .wpjb-top-header-subtitle{
+        color:@gray-light;
+        font-weight: 300;
+        font-size:1em;
+        }
+    }
+    a{
+        color: @brand-primary-dark;
+    }
+        .wpjb-text p{
+            font-weight: 300;
+        }
+    .wpjb-job-apply{
+        a.wpjb-button, aa.wpjb-button:hover{
+            &:extend(.btn, .btn-blue, .btn-lg);
+            color: #ffffff !important;
+            font-family: raleway;
+            font-weight: 500;
+            text-transform:uppercase;
+            letter-spacing: 1px;
+        }
+        .wpjb-legend{
+            border-bottom:3px solid @brand-primary-light;
+        }
+        .wpjb-submit{
+            &:extend(.btn, .btn-blue, .btn-md);
+            text-transform: uppercase;
+            font-family: raleway;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+    }
+    }
+    
+}

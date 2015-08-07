@@ -1,0 +1,45 @@
+/**** HEADER SECTION ************/
+/* line 3, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header {
+  background: red;
+}
+/* line 5, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header .img-header {
+  background-image: url('images/header/header-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 600px;
+  padding-bottom: 0;
+}
+/* line 12, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header .img-header .enregistrement {
+  position: relative;
+}
+/* line 14, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header .img-header .enregistrement div.col-sm-4 {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  background: red;
+}
+/* line 22, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header .recherche-emploi {
+  background: #93d1d9;
+  color: #fff;
+  margin-top: 200px;
+}
+/* line 29, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header .navbar-nav li a {
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+/* line 35, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+header a.navbar-brand {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+/**** END OF HEADER SECTION *****/
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,199 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 0px;
+}.flaticon-attache:before {
+	content: "\e000";
+}
+.flaticon-avatar23:before {
+	content: "\e001";
+}
+.flaticon-briefcase64:before {
+	content: "\e002";
+}
+.flaticon-building80:before {
+	content: "\e003";
+}
+.flaticon-business121:before {
+	content: "\e004";
+}
+.flaticon-business64:before {
+	content: "\e005";
+}
+.flaticon-businessman212:before {
+	content: "\e006";
+}
+.flaticon-businessman221:before {
+	content: "\e007";
+}
+.flaticon-businessman233:before {
+	content: "\e008";
+}
+.flaticon-calendar136:before {
+	content: "\e009";
+}
+.flaticon-chair8:before {
+	content: "\e00a";
+}
+.flaticon-checking1:before {
+	content: "\e00b";
+}
+.flaticon-clerks:before {
+	content: "\e00c";
+}
+.flaticon-computer154:before {
+	content: "\e00d";
+}
+.flaticon-computer258:before {
+	content: "\e00e";
+}
+.flaticon-contract11:before {
+	content: "\e00f";
+}
+.flaticon-curriculum3:before {
+	content: "\e010";
+}
+.flaticon-datastorage21:before {
+	content: "\e011";
+}
+.flaticon-document197:before {
+	content: "\e012";
+}
+.flaticon-file-format:before {
+	content: "\e013";
+}
+.flaticon-file167:before {
+	content: "\e014";
+}
+.flaticon-file94:before {
+	content: "\e015";
+}
+.flaticon-girl37:before {
+	content: "\e016";
+}
+.flaticon-group49:before {
+	content: "\e017";
+}
+.flaticon-group63:before {
+	content: "\e018";
+}
+.flaticon-id2:before {
+	content: "\e019";
+}
+.flaticon-identification13:before {
+	content: "\e01a";
+}
+.flaticon-job-search1:before {
+	content: "\e01b";
+}
+.flaticon-job-search2:before {
+	content: "\e01c";
+}
+.flaticon-job-search4:before {
+	content: "\e01d";
+}
+.flaticon-leaf64:before {
+	content: "\e01e";
+}
+.flaticon-magnifyingglass75:before {
+	content: "\e01f";
+}
+.flaticon-male226:before {
+	content: "\e020";
+}
+.flaticon-man111:before {
+	content: "\e021";
+}
+.flaticon-man3:before {
+	content: "\e022";
+}
+.flaticon-management:before {
+	content: "\e023";
+}
+.flaticon-medal61:before {
+	content: "\e024";
+}
+.flaticon-mind:before {
+	content: "\e025";
+}
+.flaticon-notebook9:before {
+	content: "\e026";
+}
+.flaticon-office-material:before {
+	content: "\e027";
+}
+.flaticon-office-worker1:before {
+	content: "\e028";
+}
+.flaticon-office-worker2:before {
+	content: "\e029";
+}
+.flaticon-paper4:before {
+	content: "\e02a";
+}
+.flaticon-people:before {
+	content: "\e02b";
+}
+.flaticon-person190:before {
+	content: "\e02c";
+}
+.flaticon-person213:before {
+	content: "\e02d";
+}
+.flaticon-secretary1:before {
+	content: "\e02e";
+}
+.flaticon-users149:before {
+	content: "\e02f";
+}
+.flaticon-users53:before {
+	content: "\e030";
+}
+.flaticon-users6:before {
+	content: "\e031";
+}
+.flaticon-users81:before {
+	content: "\e032";
+}
+.flaticon-woman102:before {
+	content: "\e033";
+}
+.flaticon-woman103:before {
+	content: "\e034";
+}
+.flaticon-woman104:before {
+	content: "\e035";
+}
+.flaticon-woman105:before {
+	content: "\e036";
+}
+.flaticon-woman139:before {
+	content: "\e037";
+}
+.flaticon-woman143:before {
+	content: "\e038";
+}
+.flaticon-woman93:before {
+	content: "\e039";
+}
+.flaticon-worker12:before {
+	content: "\e03a";
+}
+.flaticon-workers3:before {
+	content: "\e03b";
+}
+.flaticon-workers4:before {
+	content: "\e03c";
+}

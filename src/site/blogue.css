@@ -1,0 +1,47 @@
+/* line 2, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue {
+  background: #efefef;
+  padding: 50px 0;
+}
+/* line 5, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue .post-wrapper {
+  background: #fff;
+  margin-top: 30px;
+}
+/* line 8, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue .post-wrapper img {
+  width: 100%;
+}
+/* line 12, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue .post-wrapper .category {
+  padding: 10px 20px;
+  background: #c41631;
+  font-family: Oswald;
+  font-size: 20px;
+}
+/* line 17, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue .post-wrapper .category a {
+  color: #fff;
+}
+/* line 21, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue .post-wrapper .post-header {
+  padding: 20px;
+  color: #999;
+  font-size: 12px;
+}
+/* line 27, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue .post-wrapper .entry {
+  padding: 0 20px 20px 20px;
+}
+/* line 31, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue h2 {
+  color: #c41631;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 30px;
+}
+/* line 37, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/blogue.less */
+.home .blogue h3 {
+  font-family: Tenor Sans;
+}
+/*# sourceMappingURL=blogue.css.map */

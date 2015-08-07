@@ -1,0 +1,94 @@
+.home{
+    .blogue{
+        background:#efefef;
+        padding:50px 0;
+        .post-wrapper{
+            background:#fff;
+            margin-top:30px;
+            img{
+            &:extend(.img-responsive);
+                width:100%;
+            }
+            .category{
+                padding:15px 20px;
+                background: @brand-primary;
+                font-family:inherit;
+                font-size:18px;
+                font-weight: 700;
+                text-transform: uppercase;
+                a{
+                    color: #fff;
+                }
+            }
+            .post-header{
+                padding:20px;
+                color:#999;
+                font-size:12px;
+                author{}
+                a{
+                color:@brand-primary;
+                }
+            }
+            .entry{
+                padding: 0 20px 20px 20px;
+            }
+        }
+        h2{
+            color: @brand-primary;
+            font-family: inherit;
+            font-weight: 300;
+            font-size:30px;
+        }
+        h3{
+            font-family:inherit;
+            font-weight: 300;
+        }
+    }
+    
+}
+.category{
+    .blogue{
+        .blog-post {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .wp-post-image{
+            &:extend(.img-responsive);
+            margin-top:5px;
+            }
+        }
+        h1{
+            color: @brand-primary-dark;
+            margin-bottom:40px;
+        }
+        h2{
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 0;
+        margin-top: 0;
+        }
+        .entry{
+            padding:10px 0;
+            p{
+            font-weight: 300;
+                line-height: 22px;
+            }
+        }
+        
+    }
+}
+.single-post{
+    .post-wrapper{
+        .post-header{
+            h1{
+                margin-top: 0;
+            }
+            img{
+                &:extend(.img-responsive);
+            }
+        }
+        .entry{
+            padding:30px 0;
+        }
+    }
+}

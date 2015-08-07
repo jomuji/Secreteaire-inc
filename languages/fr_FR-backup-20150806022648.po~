@@ -1,0 +1,688 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secretaire-inc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Aug 05 2015 22:18:10 GMT-0400 (EDT)\n"
+"PO-Revision-Date: Wed Aug 05 2015 22:22:32 GMT-0400 (EDT)\n"
+"Last-Translator: admin <info@netavantage.com>\n"
+"Language-Team: \n"
+"Language: French (France)\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: functions.php:111
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: recent-jobs.php:35
+msgid "View All"
+msgstr "Voir Tous"
+
+#: recent-jobs.php:43 /wpjobboard/widget/recent-jobs.php:51
+#: wpjobboard/widget/recently-viewed.php:34 /wpjobboard/job-board/company-panel.
+#: php:93 /wpjobboard/job-board/index.php:75 /wpjobboard/job-board/search.php:72
+msgid "No job listings found."
+msgstr "Pas d'emplois disponnible"
+
+#: index-item.php:60 /wpjobboard/job-board/index-item.php:64
+msgid "Nouveau"
+msgstr "Nouveau"
+
+#: wpjobboard/widget/categories.php:39
+msgid "No categories found."
+msgstr "Aucune catégorie trouvée"
+
+#: wpjobboard/widget/locations.php:39
+msgid "No active locations found."
+msgstr "Aucune région trouvé"
+
+#: wpjobboard/widget/job-board-menu.php:8
+msgid "Soumettre une offre d'emploi"
+msgstr "Soumettre une offre d'emploi"
+
+#: wpjobboard/widget/job-board-menu.php:14
+msgid "Voir les offres"
+msgstr "Voir les offres"
+
+#: wpjobboard/widget/job-board-menu.php:19
+msgid "Recherche avancée"
+msgstr "Recherche avancée"
+
+#: wpjobboard/widget/job-board-menu.php:26
+msgid "Zone employeur"
+msgstr "Zone employeur"
+
+#: wpjobboard/widget/job-board-menu.php:31 /wpjobboard/job-board/company-home.
+#: php:19
+msgid "Company Jobs"
+msgstr "Emplois de l'entreprise"
+
+#: wpjobboard/widget/job-board-menu.php:36
+msgid "Company Profile"
+msgstr "Profil de l'entreprise"
+
+#: wpjobboard/widget/job-board-menu.php:41 /wpjobboard/job-board/company-home.
+#: php:29
+msgid "Membership"
+msgstr "Abonement"
+
+#: wpjobboard/widget/job-board-menu.php:46 /wpjobboard/widget/resumes-menu.php:
+#: 55 /wpjobboard/job-board/company-home.php:38
+msgid "Logout"
+msgstr "Déconnecter"
+
+#: wpjobboard/widget/job-board-menu.php:52
+msgid "Employer Login"
+msgstr "Connection employeur"
+
+#: wpjobboard/widget/job-board-menu.php:57
+msgid "Employer Registration"
+msgstr ""
+
+#: wpjobboard/widget/alerts.php:7
+msgid "Do you like these job search results?"
+msgstr ""
+
+#: wpjobboard/widget/alerts.php:8
+msgid "Subscribe Now ..."
+msgstr ""
+
+#: wpjobboard/widget/alerts.php:35
+msgid "Créer une alerte"
+msgstr ""
+
+#: wpjobboard/widget/job-types.php:39
+msgid "No job types found."
+msgstr ""
+
+#: wpjobboard/widget/recent-jobs.php:43
+msgid "Voir toutes les offres"
+msgstr ""
+
+#: wpjobboard/widget/featured-jobs.php:53
+msgid "No featured jobs found."
+msgstr ""
+
+#: wpjobboard/widget/recently-viewed.php:26
+msgid "at"
+msgstr ""
+
+#: wpjobboard/widget/recently-viewed.php:29 /wpjobboard/job-board/company.php:55
+#: wpjobboard/job-board/job.php:66
+msgid "Location"
+msgstr ""
+
+#: wpjobboard/widget/feeds.php:25
+msgid "All Feeds"
+msgstr ""
+
+#: wpjobboard/widget/feeds.php:33
+msgid "No feeds found."
+msgstr ""
+
+#: wpjobboard/widget/custom-menu.php:23
+msgid "No links in the menu"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:22
+msgid "Browse Resumes"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:27
+msgid "Search Resumes"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:33
+msgid "My Dashboard"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:38
+msgid "My Resume"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:43
+msgid "My Applications"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:49
+msgid "My Bookmarks"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:61
+msgid "Candidate Login"
+msgstr ""
+
+#: wpjobboard/widget/resumes-menu.php:66
+msgid "Candidate Registration"
+msgstr ""
+
+#: wpjobboard/widget/search.php:28
+msgid "Keyword, location ..."
+msgstr "Mots clés, région"
+
+#: wpjobboard/widget/search.php:30
+msgid "Search"
+msgstr "Recherche"
+
+#: wpjobboard/job-board/company-panel.php:31
+msgid "Active listings"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:34
+msgid "Expired listings"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:41
+msgid "Expires"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:42
+msgid "Title"
+msgstr "Titre"
+
+#: wpjobboard/job-board/company-panel.php:43
+msgid "Applications"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:50
+msgid "Never"
+msgstr "Jamais"
+
+#: wpjobboard/job-board/company-panel.php:52
+msgid "Expired"
+msgstr "Expiré"
+
+#: wpjobboard/job-board/company-panel.php:63
+#, php-format
+msgid "1 application"
+msgid_plural "%d applications"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpjobboard/job-board/company-panel.php:65
+msgid "0 applications"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:73
+msgid "View job"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:74
+msgid "Edit job"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:75
+msgid "Republish"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:76
+msgid "Delete ..."
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:78
+msgid "Applicants"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:81
+msgid "Mark as not filled"
+msgstr ""
+
+#: wpjobboard/job-board/company-panel.php:83
+msgid "Mark as filled"
+msgstr ""
+
+#: wpjobboard/job-board/preview.php:12
+msgid "Edit Listing"
+msgstr ""
+
+#: wpjobboard/job-board/preview.php:13
+msgid "Publish Listing"
+msgstr ""
+
+#: wpjobboard/job-board/job-application.php:23
+msgid "Application Status"
+msgstr ""
+
+#: wpjobboard/job-board/job-application.php:32
+msgid "change"
+msgstr ""
+
+#: wpjobboard/job-board/job-application.php:39
+msgid "Applicant Resume"
+msgstr ""
+
+#: wpjobboard/job-board/job-application.php:42
+msgid "View Resume"
+msgstr ""
+
+#: wpjobboard/job-board/job-application.php:48
+msgid "Applicant Name"
+msgstr "Nom du candidat"
+
+#: wpjobboard/job-board/job-application.php:56
+msgid "Applicant E-mail"
+msgstr "Courriel du candidat"
+
+#: wpjobboard/job-board/job-application.php:64
+msgid "Date Sent"
+msgstr ""
+
+#: wpjobboard/job-board/job-application.php:91
+msgid "Attached Files"
+msgstr "Fichiers attachés"
+
+#: wpjobboard/job-board/job-application.php:106
+msgid "Message"
+msgstr ""
+
+#: wpjobboard/job-board/save.php:32
+msgid "Thank you for using our service and submitting your job listing."
+msgstr ""
+
+#: wpjobboard/job-board/save.php:35
+msgid "Your job listing is now live."
+msgstr ""
+
+#: wpjobboard/job-board/save.php:36
+msgid "Click here to view your listing"
+msgstr ""
+
+#: wpjobboard/job-board/save.php:39
+msgid "Once it has been moderated and approved your job posting will become active."
+msgstr ""
+
+#: wpjobboard/job-board/save.php:44
+msgid "Thank you for the payment, your order will be processed shortly."
+msgstr ""
+
+#: wpjobboard/job-board/save.php:46
+msgid "We already recived payment for this listing. Thank you."
+msgstr ""
+
+#: wpjobboard/job-board/save.php:48
+msgid "Please use form below to make payment for job listing. Thank you!"
+msgstr ""
+
+#: wpjobboard/job-board/save.php:52
+msgid "Listing Cost"
+msgstr ""
+
+#: wpjobboard/job-board/save.php:56 /wpjobboard/job-board/add.php:66
+msgid "Discount"
+msgstr ""
+
+#: wpjobboard/job-board/save.php:60 /wpjobboard/job-board/payment.php:38
+msgid "To Pay"
+msgstr ""
+
+#: wpjobboard/job-board/company-new.php:35 /wpjobboard/job-board/single.php:36
+msgid "Register"
+msgstr ""
+
+#: wpjobboard/job-board/index.php:35
+msgid "Keyword ..."
+msgstr "Mots clés"
+
+#: wpjobboard/job-board/index.php:36
+msgid "Location ..."
+msgstr "Région"
+
+#: wpjobboard/job-board/index.php:49 /wpjobboard/job-board/employers.php:37
+msgid "Filter Results"
+msgstr ""
+
+#: wpjobboard/job-board/add.php:62
+msgid "Listing cost"
+msgstr ""
+
+#: wpjobboard/job-board/add.php:70
+msgid "Total"
+msgstr ""
+
+#: wpjobboard/job-board/add.php:79
+msgid "Preview"
+msgstr ""
+
+#: wpjobboard/job-board/add.php:80 /wpjobboard/job-board/company-verify.php:32
+msgid "or"
+msgstr ""
+
+#: wpjobboard/job-board/add.php:81
+msgid "Reset form"
+msgstr ""
+
+#: wpjobboard/job-board/company-verify.php:23
+msgid ""
+"Clicking 'request verification' button will start manual verification "
+"proccess. Site Administrator might contact you and request some additional "
+"company information."
+msgstr ""
+
+#: wpjobboard/job-board/company-verify.php:31
+msgid "Request verification"
+msgstr ""
+
+#: wpjobboard/job-board/company-verify.php:33
+msgid "Cancel and go back"
+msgstr ""
+
+#: wpjobboard/job-board/company-verify.php:36
+msgid "Go back."
+msgstr ""
+
+#: wpjobboard/job-board/employers.php:33
+msgid "What?"
+msgstr "Quoi?"
+
+#: wpjobboard/job-board/employers.php:34
+msgid "Where?"
+msgstr "Où?"
+
+#: wpjobboard/job-board/employers.php:63
+msgid "No employers found."
+msgstr ""
+
+#: wpjobboard/job-board/company.php:40
+msgid "Active Listings"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:45
+#, php-format
+msgid "Registered: %1$s (%2$s ago)"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:58 /wpjobboard/job-board/job.php:69
+msgid "show on map"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:75
+msgid "Website"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:107
+msgid "Company Information"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:129
+msgid "Current job openings at"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:140 /wpjobboard/job-board/single.php:117
+msgid "new"
+msgstr ""
+
+#: wpjobboard/job-board/company.php:148
+msgid "Currently this employer doesn't have any openings."
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:7
+#, php-format
+msgid "Expires <strong>%1$s</strong>"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:10
+msgid "(expires today)"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:12
+#, php-format
+msgid "(1 day left)"
+msgid_plural "(%s days left)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpjobboard/job-board/company-product-details.php:18
+#, php-format
+msgid "Some credits will expire on <strong>%s</strong>."
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:27 /wpjobboard/job-
+#: board/company-products.php:46
+msgid "Job Postings Included"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:28 /wpjobboard/job-
+#: board/company-products.php:70
+msgid "Resumes Access Included"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:45 /wpjobboard/job-
+#: board/company-products.php:58 /wpjobboard/job-board/company-products.php:76
+msgid "Unlimited"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:48
+#, php-format
+msgid "(%d left)"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:60
+msgid "Renew"
+msgstr ""
+
+#: wpjobboard/job-board/company-product-details.php:61
+msgid "Go Back"
+msgstr ""
+
+#: wpjobboard/job-board/company-home.php:9
+msgid "Manage"
+msgstr ""
+
+#: wpjobboard/job-board/company-home.php:14
+msgid "Post a Job"
+msgstr "Poster une offre"
+
+#: wpjobboard/job-board/company-home.php:24
+msgid "Edit Profile"
+msgstr ""
+
+#: wpjobboard/job-board/company-home.php:33
+msgctxt "Compte"
+msgid "Account"
+msgstr ""
+
+#: wpjobboard/job-board/company-home.php:43
+msgctxt "Changer le mot de passe"
+msgid "Change Password"
+msgstr ""
+
+#: wpjobboard/job-board/company-home.php:48
+msgid "Delete Account"
+msgstr "Suprimer le compte"
+
+#: wpjobboard/job-board/job-applications.php:28
+msgid "Applicant name"
+msgstr ""
+
+#: wpjobboard/job-board/job-applications.php:29
+msgid "E-mail"
+msgstr ""
+
+#: wpjobboard/job-board/job-applications.php:30
+msgid "Freshness"
+msgstr ""
+
+#: wpjobboard/job-board/job-applications.php:31
+msgid "Status"
+msgstr ""
+
+#: wpjobboard/job-board/job-applications.php:41
+msgid "ID"
+msgstr ""
+
+#: wpjobboard/job-board/job-applications.php:69
+msgid "No applicants found."
+msgstr ""
+
+#: wpjobboard/job-board/company-edit.php:52
+msgid "Update profile"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:5
+msgid "Subscribe To Personalized Notifications"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:6
+msgid "Close"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:10
+msgid "You are subscribing to jobs matching your current search criteria."
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:16
+msgid "Email Notifications"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:20
+msgid "Email notifications will be sent to you"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:23
+msgid "Daily"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:26
+msgid "Weekly"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:29
+msgid "enter your email address here ..."
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:31 /wpjobboard/job-board/subscribe.php:52
+msgid "Subscribe"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:43
+msgid "Custom RSS Feed"
+msgstr ""
+
+#: wpjobboard/job-board/subscribe.php:48
+msgid "Your personalized RSS Feed is below, copy the address to your RSS reader."
+msgstr ""
+
+#: wpjobboard/job-board/job-edit.php:34
+msgid "Update"
+msgstr ""
+
+#: wpjobboard/job-board/single.php:35 /wpjobboard/job-board/company-login.php:35
+msgid "Login"
+msgstr ""
+
+#: wpjobboard/job-board/single.php:46
+msgid "Apply"
+msgstr "Appliquer"
+
+#: wpjobboard/job-board/single.php:48
+msgid "Apply Online"
+msgstr "Appliquer en ligne"
+
+#: wpjobboard/job-board/single.php:97
+msgid "Send Application"
+msgstr "Envoyer application"
+
+#: wpjobboard/job-board/single.php:107
+msgid "Related Jobs"
+msgstr ""
+
+#: wpjobboard/job-board/job.php:56
+#, php-format
+msgid "Published: %1$s"
+msgstr ""
+
+#: wpjobboard/job-board/job.php:85
+msgid "Job Type"
+msgstr ""
+
+#: wpjobboard/job-board/job.php:96
+msgid "Category"
+msgstr "Categorie"
+
+#: wpjobboard/job-board/job.php:127
+msgid "Description"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:37
+msgid "Active"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:52
+msgid "Featured"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:55
+#, php-format
+msgid "Days Visible: %d"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:60 /wpjobboard/job-board/company-
+#: products.php:78
+#, php-format
+msgid "Max. %1$d Uses"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:92
+msgid "Free"
+msgstr "Gratuit"
+
+#: wpjobboard/job-board/company-products.php:96
+#, php-format
+msgid "%1$s / %2$d days"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:100
+msgid "Purchase"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:100
+msgid "Activate"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:103
+msgid "View Details"
+msgstr ""
+
+#: wpjobboard/job-board/company-products.php:111
+msgid "No membership products found."
+msgstr ""
+
+#: wpjobboard/job-board/payment.php:27
+msgid "Payment"
+msgstr ""
+
+#: wpjobboard/job-board/payment.php:30
+msgid "Payment for job posting."
+msgstr ""
+
+#: wpjobboard/job-board/payment.php:33
+msgid "Payment for resumes access."
+msgstr ""
+
+#: wpjobboard/job-board/company-login.php:36
+msgid "Not a member? Register"
+msgstr "Pas encore membre? Enregistrez-vous"
+
+#: wpjobboard/job-board/search.php:23
+msgid "Refine Search"
+msgstr ""
+
+#: wpjobboard/job-board/search.php:24
+msgid "Subscribe To This Search"
+msgstr "S'abonner à cette recherche"
+
+#: wpjobboard/job-board/search.php:56
+msgid "Rechercher"
+msgstr ""
