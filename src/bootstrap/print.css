@@ -1,6 +1,5 @@
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
-  /* line 9, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   *,
   *:before,
   *:after {
@@ -9,81 +8,64 @@
     box-shadow: none !important;
     text-shadow: none !important;
   }
-  /* line 18, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   a,
   a:visited {
     text-decoration: underline;
   }
-  /* line 23, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   a[href]:after {
     content: " (" attr(href) ")";
   }
-  /* line 27, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-  /* line 33, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
   }
-  /* line 38, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-  /* line 44, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   thead {
     display: table-header-group;
   }
-  /* line 48, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   tr,
   img {
     page-break-inside: avoid;
   }
-  /* line 53, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   img {
     max-width: 100% !important;
   }
-  /* line 57, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-  /* line 64, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   h2,
   h3 {
     page-break-after: avoid;
   }
-  /* line 72, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   .navbar {
     display: none;
   }
-  /* line 77, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
-  /* line 81, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   .label {
     border: 1px solid #000;
   }
-  /* line 85, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   .table {
     border-collapse: collapse !important;
   }
-  /* line 88, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   .table td,
   .table th {
     background-color: #fff !important;
   }
-  /* line 94, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/print.less */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
 }
-/*# sourceMappingURL=print.css.map */

@@ -1,4 +1,3 @@
-/* line 5, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/responsive-embed.less */
 .embed-responsive {
   position: relative;
   display: block;
@@ -6,7 +5,6 @@
   padding: 0;
   overflow: hidden;
 }
-/* line 12, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/responsive-embed.less */
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
@@ -20,12 +18,9 @@
   width: 100%;
   border: 0;
 }
-/* line 28, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/responsive-embed.less */
 .embed-responsive-16by9 {
   padding-bottom: 56.25%;
 }
-/* line 33, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/responsive-embed.less */
 .embed-responsive-4by3 {
   padding-bottom: 75%;
 }
-/*# sourceMappingURL=responsive-embed.css.map */

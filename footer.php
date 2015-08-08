@@ -1,4 +1,9 @@
 <!-- Start Footer Section -->
+        <section class="footer-1">
+          <div class="container">
+            <div class="text-center footer1"><?php dynamic_sidebar('footer1'); ?></div>  
+           </div> 
+        </section>
         <footer class="footer">
             <div class="container">
                 <div class="row footer-widgets">
