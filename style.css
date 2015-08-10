@@ -3266,7 +3266,8 @@ form#wpjb-resume fieldset.wpjb-fieldset-location .wpjb-element-input-text input,
 .sidebar-1 #text-2 form input.input,
 #ninja_forms_form_1 .text-wrap input,
 #ninja_forms_form_1 .textarea-wrap input,
-#ninja_forms_form_1 .spam-wrap input {
+#ninja_forms_form_1 .spam-wrap input,
+input[type=text] {
   display: block;
   width: 100%;
   height: 34px;
@@ -5836,48 +5837,47 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* line 547, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
-  font-family: Tenor Sans;
   font-size: 16px;
 }
-/* line 551, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 550, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: transparent;
 }
-/* line 558, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 557, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #961126;
 }
-/* line 566, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 565, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
   color: #444444;
   background-color: transparent;
 }
-/* line 576, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 575, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-toggle {
   border-color: #333333;
 }
-/* line 578, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 577, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
   background-color: #333333;
 }
-/* line 582, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 581, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-/* line 587, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 586, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
   border-color: #a41229;
 }
-/* line 595, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 594, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
@@ -5885,32 +5885,32 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ffffff;
 }
 @media (max-width: 767px) {
-  /* line 606, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+  /* line 605, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #961126;
   }
-  /* line 609, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+  /* line 608, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
     background-color: #961126;
   }
-  /* line 612, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+  /* line 611, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #9d9d9d;
   }
-  /* line 614, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+  /* line 613, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
     background-color: transparent;
   }
-  /* line 621, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+  /* line 620, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
     background-color: #961126;
   }
-  /* line 629, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+  /* line 628, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -5918,24 +5918,24 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: transparent;
   }
 }
-/* line 640, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 639, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-link {
   color: #9d9d9d;
 }
-/* line 642, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 641, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
 }
-/* line 647, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 646, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .btn-link {
   color: #9d9d9d;
 }
-/* line 649, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 648, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
   color: #ffffff;
 }
-/* line 655, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
+/* line 654, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/bootstrap/navbar.less */
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
@@ -8497,37 +8497,38 @@ header.header .recherche-emploi {
 header.header .navbar-nav li a {
   padding: 10px 20px;
   margin: 20px 0;
+  font-family: raleway;
 }
-/* line 115, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 116, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 header.header a.navbar-brand {
   color: #fff;
   font-family: Oswald;
   font-size: 28px;
   text-transform: uppercase;
 }
-/* line 126, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 127, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .category header.header .img-header {
   min-height: 300px;
 }
-/* line 129, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 130, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .category header.header h1 {
   color: #c41631;
   font-weight: 500;
   margin-top: 170px;
   text-align: right;
 }
-/* line 140, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 141, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .page header.header .img-header {
   min-height: 300px;
 }
-/* line 143, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 144, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .page header.header h1 {
   color: #c41631;
   font-weight: 500;
   margin-top: 170px;
   text-align: right;
 }
-/* line 155, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 156, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .single-job header.header .img-header,
 .single-post header.header .img-header {
   min-height: 300px;
@@ -8536,7 +8537,7 @@ header.header a.navbar-brand {
   background-size: cover;
   background-position: top center;
 }
-/* line 162, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 163, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .single-job header.header h1,
 .single-post header.header h1 {
   font-weight: 500;
@@ -8545,7 +8546,7 @@ header.header a.navbar-brand {
   color: #fff;
   line-height: 60px;
 }
-/* line 168, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
+/* line 169, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/header.less */
 .single-job header.header h1 small,
 .single-post header.header h1 small {
   font-size: 22px;
@@ -8559,7 +8560,6 @@ header.header a.navbar-brand {
   min-height: 0;
   width: 100%;
   color: #333333;
-  margin-top: 40px;
   padding: 0;
 }
 /* line 9, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
@@ -8588,42 +8588,47 @@ header.header a.navbar-brand {
   display: table-cell;
   width: 1%;
   float: none;
+  font-family: raleway;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-/* line 31, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 34, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .container-login .nav-tabs.nav-justified > li > a,
 .container-login .nav-tabs.nav-justified > li > a:hover,
 .container-login .nav-tabs.nav-justified > li > a:focus {
-  background: #DD342B;
+  background: #3fa7af;
   border: medium none;
   color: #ffffff;
   margin-bottom: 0;
   margin-right: 0;
   border-radius: 0;
 }
-/* line 41, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 44, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .container-login .nav-tabs.nav-justified > .active > a,
 .container-login .nav-tabs.nav-justified > .active > a:hover,
 .container-login .nav-tabs.nav-justified > .active > a:focus {
-  background: #ffffff;
-  color: #333333;
+  background: #eeeeee;
+  color: #777777;
 }
-/* line 47, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 50, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .container-login .nav-tabs.nav-justified > li > a:hover,
 .container-login .nav-tabs.nav-justified > li > a:focus {
-  background: #de2f18;
+  background: #3fa7af;
 }
-/* line 51, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 54, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .tabs-login {
-  background: #ffffff;
+  background: #eeeeee;
   border: medium none;
   margin-top: -1px;
   padding: 10px 30px;
 }
-/* line 57, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
-.container-login h2 {
-  color: #ea533f;
-}
 /* line 60, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+.container-login h2 {
+  color: #3fa7af;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* line 65, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .form-control,
 form#wpjb-resume fieldset.wpjb-fieldset-auth input,
 form#wpjb-resume fieldset.wpjb-fieldset-default .wpjb-element-input-text input,
@@ -8639,10 +8644,11 @@ form#wpjb-resume fieldset.wpjb-fieldset-location .wpjb-element-input-text input,
 .sidebar-1 #text-2 form input.input,
 #ninja_forms_form_1 .text-wrap input,
 #ninja_forms_form_1 .textarea-wrap input,
-#ninja_forms_form_1 .spam-wrap input {
-  background-color: #ffffff;
+#ninja_forms_form_1 .spam-wrap input,
+input[type=text] {
+  background-color: #fff;
   background-image: none;
-  border: 1px solid #999999;
+  border: 1px solid #d8d8d8;
   border-radius: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
   color: #333333;
@@ -8654,26 +8660,30 @@ form#wpjb-resume fieldset.wpjb-fieldset-location .wpjb-element-input-text input,
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   width: 100%;
 }
-/* line 75, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 80, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .container-login .checkbox {
   margin-top: -15px;
 }
-/* line 78, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 83, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .container-login button {
-  background-color: #DD342B;
-  border-color: #e73e28;
+  background-color: #3fa7af;
+  border-color: #3fa7af;
   color: #ffffff;
   border-radius: 0;
   font-size: 18px;
   line-height: 1.33;
   padding: 10px 16px;
   width: 100%;
+  font-family: raleway;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
-/* line 88, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
+/* line 97, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/login-box.less */
 .container-login button:hover,
 .container-login button:focus {
-  background: #de2f18;
-  border-color: #be2815;
+  background: #555555;
+  border-color: #555555;
 }
 /* line 2, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/register.less */
 .page.page-template-template-register header.header .img-header {
@@ -9501,12 +9511,20 @@ form#wpjb-resume fieldset .wpjb-submit {
   left: 0px;
   color: #777777;
 }
-/* line 87, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 86, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+.sidebar-1 #text-2 {
+  padding: 0;
+}
+/* line 88, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+.sidebar-1 #text-2 .textwidget {
+  padding: 0;
+}
+/* line 91, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 h4 {
   background: #777777;
   position: relative;
 }
-/* line 90, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 94, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 h4:after {
   content: '\e033';
   background: #93d1d9;
@@ -9520,15 +9538,15 @@ form#wpjb-resume fieldset .wpjb-submit {
   text-align: center;
   line-height: 80px;
 }
-/* line 105, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 109, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 form {
   padding: 0;
 }
-/* line 107, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 111, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 form input.input {
   border: none;
 }
-/* line 111, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 115, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 form input#bp-login-widget-submit {
   background: #555555;
   color: #fff;
@@ -9537,16 +9555,16 @@ form#wpjb-resume fieldset .wpjb-submit {
   letter-spacing: 1px;
   margin-top: 10px;
 }
-/* line 122, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 126, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 form label {
   color: #777777;
   margin-top: 20px;
 }
-/* line 126, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 130, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .sidebar-1 #text-2 form a {
   color: #555555;
 }
-/* line 133, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 137, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 #sidebar h4 {
   font-size: 14px;
   font-weight: 500;
@@ -9555,13 +9573,13 @@ form#wpjb-resume fieldset .wpjb-submit {
   position: relative;
   text-transform: uppercase;
 }
-/* line 141, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 145, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 #sidebar ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 146, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 150, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 #sidebar ul li a {
   border-bottom: 1px solid #eee;
   display: block;
@@ -9572,7 +9590,7 @@ form#wpjb-resume fieldset .wpjb-submit {
   font-weight: 300;
   font-size: 16px;
 }
-/* line 159, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
+/* line 163, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/sidebar.less */
 .widget {
   margin-bottom: 40px;
 }
@@ -9761,6 +9779,21 @@ form#wpjb-resume fieldset .wpjb-submit {
 /* line 73, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/tarifs.less */
 .pricing-tables .highlight-plan .plan-signup .btn {
   border: 1px solid #fff;
+}
+/* line 80, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/tarifs.less */
+.home .procedures {
+  display: none;
+}
+/* line 83, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/tarifs.less */
+.home section.prix {
+  padding: 50px 0;
+}
+/* line 85, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/tarifs.less */
+.home section.prix h4 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
 }
 /*------------------------------------------*/
 /*			 11 - Footer Styles
@@ -10119,6 +10152,10 @@ footer.footer ol {
   font-family: raleway;
   text-transform: uppercase;
   font-weight: 500;
+}
+/* line 28, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/site/forms.less */
+input[type=text] {
+  background: #fff;
 }
 /* line 28, /Users/www/secretaire-inc/public_html/wp-content/themes/sec-inc-2/src/styles.less */
 .content {

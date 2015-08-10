@@ -90,6 +90,12 @@
         <section class="content-bottom">
                <?php dynamic_sidebar( 'content-bottom' ); ?>
         </section>
+        <section class="prix">
+           <div class="container">
+           <h4>Forfaits et tarifs</h4>
+            <?php $id = 759; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?>
+            </div>
+        </section>
     </div><!--.wrap>
 <?php wp_footer(); ?>
 <?php get_footer(); ?>

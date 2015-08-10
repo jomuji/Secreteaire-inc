@@ -131,13 +131,15 @@ wp_register_style( $handle, $src, $deps, $ver, $media );
 
 
 
-// load css into the website's front-end
-function themeslug_enqueue_style() {
-	wp_enqueue_style( 'core', 'style.css', false ); 
-}
+
 
 function themeslug_enqueue_script() {
-	wp_enqueue_script( 'my-js', 'filename.js', false );
+    wp_enqueue_style( 'core', get_template_directory_uri() .'/style.min.css', false ); 
+    wp_enqueue_script('jquery'); 
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'my-js', get_template_directory_uri() . '/js/jquery.matchHeight-min.js', false );
+    wp_enqueue_script( 'my-js-select', get_template_directory_uri() . '/js/bootstrap-select.min.js', false );
+    wp_enqueue_script( 'my-js-main', get_template_directory_uri() . '/js/main.js', array('jquery') );
 }
 
 add_action( 'wp_enqueue_scripts', 'themeslug_enqueue_style' );

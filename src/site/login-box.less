@@ -3,7 +3,7 @@
     min-height: 0;
     width: 100%;
     color: #333333;
-    margin-top: 40px;
+    //margin-top: 40px;
     padding: 0;
 }
 .center-block {
@@ -27,11 +27,14 @@
     display: table-cell;
     width: 1%;
     float: none;
+    font-family: raleway;
+    text-transform:uppercase;
+    letter-spacing: 1px;
 }
 .container-login .nav-tabs.nav-justified > li > a,
 .container-login .nav-tabs.nav-justified > li > a:hover,
 .container-login .nav-tabs.nav-justified > li > a:focus {
-    background: #DD342B;
+    background: @brand-primary-dark;
     border: medium none;
     color: #ffffff;
     margin-bottom: 0;
@@ -41,26 +44,28 @@
 .container-login .nav-tabs.nav-justified > .active > a,
 .container-login .nav-tabs.nav-justified > .active > a:hover,
 .container-login .nav-tabs.nav-justified > .active > a:focus {
-    background: #ffffff;
-    color: #333333;
+    background: @gray-lighter;
+    color: @gray-light;
 }
 .container-login .nav-tabs.nav-justified > li > a:hover,
 .container-login .nav-tabs.nav-justified > li > a:focus {
-    background: #de2f18;
+    background: @brand-primary-dark;
 }
 .tabs-login {
-    background: #ffffff;
+    background: @gray-lighter;
     border: medium none;
     margin-top: -1px;
     padding: 10px 30px;
 }
 .container-login h2 {
-    color: #ea533f;
+    color: @brand-primary-dark;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 .form-control {
-    background-color: #ffffff;
+    background-color: #fff;
     background-image: none;
-    border: 1px solid #999999;
+    border: 1px solid #d8d8d8;
     border-radius: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
     color: #333333;
@@ -76,17 +81,21 @@
     margin-top: -15px;
 }
 .container-login button {
-    background-color: #DD342B;
-    border-color: #e73e28;
+    background-color: @brand-primary-dark;
+    border-color: @brand-primary-dark;
     color: #ffffff;
     border-radius: 0;
     font-size: 18px;
     line-height: 1.33;
     padding: 10px 16px;
     width: 100%;
+    font-family: raleway;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 .container-login button:hover,
 .container-login button:focus {
-    background: #de2f18;
-    border-color: #be2815;
+    background: @gray;
+    border-color: @gray;
 }

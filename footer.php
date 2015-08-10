@@ -132,9 +132,6 @@
         </footer>
         <!-- End Footer Section -->
 <?php wp_footer(); ?>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="/wp-content/themes/sec-inc-2/js/jquery.matchHeight-min.js" type="text/javascript"></script>
-<script src="/wp-content/themes/sec-inc-2/js/bootstrap-select.min.js" type="text/javascript"></script>
 <script src="/wp-content/themes/sec-inc-2/js/main.js" type="text/javascript"></script>
 </body>
 </html>

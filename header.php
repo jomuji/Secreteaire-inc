@@ -16,8 +16,7 @@
         <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php wp_head();?>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+    
 </head>
 
 <body <?php body_class(); ?>>
@@ -26,28 +25,32 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Secrétaire-inc</a>
             </div>
             
-            <?php
+           <div class="navbar-collapse collapse" id="navbar" aria-expanded="false" style="height: 1px;">
+            
+            
+            
+            <?php /* Primary navigation */
             wp_nav_menu( array(
-                'menu'              => 'primary',
-                'theme_location'    => 'primary',
-                'depth'             => 2,
-                'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
-        'container_id'      => 'bs-example-navbar-collapse-1',
-                'menu_class'        => 'nav navbar-nav',
-                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                'walker'            => new wp_bootstrap_navwalker())
+              'menu' => 'top_menu',
+              'depth' => 2,
+              'container' => false,
+              'menu_class' => 'nav navbar-nav navbar-right',
+              //Process nav menu using our custom nav walker
+              'walker' => new wp_bootstrap_navwalker())
             );
-        ?>
+            ?>
+            
+            
+          </div>
             
         </div>
     </nav>
